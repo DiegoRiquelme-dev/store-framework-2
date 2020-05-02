@@ -41,6 +41,7 @@
         "callToActionUrl": "/sale/d",
         "textAlignment": "center",
         "blockClass" : "metal"
+        
       }
     }
 }
