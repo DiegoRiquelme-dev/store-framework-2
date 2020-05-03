@@ -1,22 +1,22 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home",
-      "children"
+      "flex-layout.row#home"
     ]
   },
-    "flex-layout.row#home":{
-      "children": [
+    "flex-layout.row#home": {
+      "Children": [
         "info-card#rethink",
         "flex-layout.col#banner"
       ]
     },
-    "flex-layout.col#banner":{
-      "children":[
+    "flex-layout.col#banner": {
+      "Children": [
         "image#electronics",
         "image#major-appliance"
       ]
     },
+    
    "info-card#rethink": {
       "props": {
         "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
