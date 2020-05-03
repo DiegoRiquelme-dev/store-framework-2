@@ -1,14 +1,21 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home"
+      "flex-layout.row#home",
+      "children"
     ]
   },
     "flex-layout.row#home":{
-      "children": ["info-card#rethink","flex-layout.col#banner"]
+      "children": [
+        "info-card#rethink",
+        "flex-layout.col#banner"
+      ]
     },
     "flex-layout.col#banner":{
-      "children": ["image#electronics","image#major-appliance"]
+      "children":[
+        "image#electronics",
+        "image#major-appliance"
+      ]
     },
    "info-card#rethink": {
       "props": {
