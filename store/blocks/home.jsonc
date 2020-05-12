@@ -5,13 +5,13 @@
     ]
   },
     "flex-layout.row#home": {
-      "parent": [
+      "children": [
         "info-card#rethink",
         "flex-layout.col#banner"
       ]
     },
     "flex-layout.col#banner": {
-      "parent": [
+      "children": [
         "image#electronics",
         "image#major-appliance"
       ]
